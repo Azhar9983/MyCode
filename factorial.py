@@ -6,4 +6,4 @@ def fact(n):
         fact *= i
     return fact
 #DRIVER CODE TO RUN FROM COMMAND LINE
-print(fact(input(sys.argv[1])))
+print(fact(int(sys.argv[1])))
