@@ -1,3 +1,4 @@
+#BINARY SEARCH THAT RETURNS INDEX OF ELEMENT IF PRESENT ELSE -1
 def BinarySearch(arr,l,r,x):
     if r >= l:
         mid = l + (r-l)//2
